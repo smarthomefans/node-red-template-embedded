@@ -11,7 +11,7 @@ There is tutorial on medium how to setup a development environment with this pro
 # Create a project folder and change into it
 mkdir myproject && cd myproject
 # Clone this repository into the project folder
-git clone https://github.com/sbarwe/node-red-template-embedded.git .
+git clone git@github.com:smarthomefans/node-red-template-embedded.git .
 # Install the pre-requisite modules (Express, Node-Red)
 npm install
 # Install some additional nodes if required ...
