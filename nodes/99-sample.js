@@ -51,7 +51,10 @@ module.exports = function(RED) {
         this.on('input', function (msg) {
             node.warn("I saw a payload: "+msg.payload);
             // in this example just send it straight on... should process it here really
-            node.send(msg);
+            node.send(msg)
+
+
+            
         });
 
         this.on("close", function() {
