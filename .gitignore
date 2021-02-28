@@ -3,6 +3,8 @@ server.crt
 .nodered
 flows.json
 .flows.json.backup
+.DS_Store
+main.js
 
 
 # Logs
